@@ -1,0 +1,35 @@
+# Archivos y carpetas a ignorar por Git
+
+# Dependencias de Node (si usaras npm o yarn en el futuro)
+node_modules/
+
+# Archivos de build (si usaras un bundler como Webpack o Parcel)
+dist/
+build/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

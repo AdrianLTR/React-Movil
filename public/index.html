@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React App Sencilla</title>
+    <link rel="stylesheet" href="../src/App.css">
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- React CDN -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Babel CDN (for JSX transformation in browser - simple setup) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Load React components -->
+    <script type="text/babel" data-presets="react" src="../src/components/HomePage.js"></script>
+    <script type="text/babel" data-presets="react" src="../src/components/AdderPage.js"></script>
+    <script type="text/babel" data-presets="react" src="../src/components/TranslatorPage.js"></script>
+    <script type="text/babel" data-presets="react" src="../src/components/MultiplicationTablePage.js"></script>
+    <script type="text/babel" data-presets="react" src="../src/components/ExperiencePage.js"></script>
+    <script type="text/babel" data-presets="react" src="../src/components/Navbar.js"></script>
+    <script type="text/babel" data-presets="react" src="../src/App.js"></script>
+    <script type="text/babel" data-presets="react" src="../src/index.js"></script>
+</body>
+</html>
